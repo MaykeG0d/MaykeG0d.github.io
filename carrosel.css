@@ -1,0 +1,15 @@
+.titulo-slider{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--fundo-palavras);
+    background-color: var(--azul);
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.swiper{
+    width: 100%;
+}
