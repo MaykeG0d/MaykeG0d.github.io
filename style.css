@@ -1,0 +1,245 @@
+*{
+    background-color: #D9D9D9;
+}
+
+.ticom{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+
+.escrever{
+    display: block;
+    margin-left: 15%;
+}
+
+.input{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    width: 900px;
+    height: 600px;
+    display: block;
+    border-radius: 83px;
+    border: 10px solid black;
+}
+
+.submit{
+    margin: 0%;
+    border-radius: 83px;
+    border: 10px solid black;
+    width: 455px;
+    height: 123px;
+}
+
+.botoes{
+    position: relative;
+    display: flex;
+}
+
+.improviso{
+    color: black;
+    background-color: white;
+    width: 455px;
+    height: 123px;
+    border-radius: 83px;
+    border: 10px solid black;
+    text-align: center;
+}
+
+.imagenss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+
+.img{
+    width: 205px;
+    height: 205px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.instan{
+    background-color: whitesmoke;
+    border-radius: 65px;
+    margin-bottom: 40px;
+}
+
+.doando{
+    display: block;
+}
+
+.box-frases { 
+    max-width:150px; 
+    overflow:hidden; 
+    margin-left: 10%;  
+    background:#D9D9D9; 
+    box-shadow: 1px 0px 1.2px 0px #878787;  
+    
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .ticom{
+        font-size: 6px;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin-left: 2%;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+    .titulo{
+        font-size: 28px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .input{
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        width: 95%;
+        height: 600px;
+        display: block;
+        border-radius: 83px;
+        border: 10px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+    .escrever{
+        display: block;
+        margin-left: 0%;
+    }
+
+    .submit{
+        margin: 0%;
+        border-radius: 10px;
+        border: 10px solid black;
+        width: 50%;
+        height: 110px;
+        margin-left: 5%;
+        
+        
+    }
+    .improviso{
+        color: black;
+        background-color: white;
+        width: 140px;
+        height: 110px;
+        border-radius: 83px;
+        border: 10px solid black;
+        
+    }
+
+    .imagenss{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .img{
+        width: 100px;
+        height: 100px;
+        margin-left: 0%;
+    }
+    
+    .instan{
+        background-color: whitesmoke;
+        border-radius: 25px;
+        margin-bottom: 40px;
+    }
+
+  }
+
+
+  /* é aqui  */
+
+  @media screen and (min-width: 800px){
+
+    .ticom{
+        font-size: 6px;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin-left: 2%;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+    .titulo{
+        font-size: 42px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .input{
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        width: 97%;
+        height: 600px;
+        display: block;
+        border-radius: 83px;
+        border: 10px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+    .escrever{
+        display: block;
+        margin-left: 0%;
+    }
+
+    .submit{
+        margin: 0%;
+        border-radius: 10px;
+        border: 10px solid black;
+        width: 50%;
+        height: 110px;
+        margin-left: 30%;
+        
+        
+    }
+    .improviso{
+        color: black;
+        background-color: white;
+        width: 140px;
+        height: 110px;
+        border-radius: 83px;
+        border: 10px solid black;
+        
+    }
+
+    .imagenss{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .img{
+        width: 150px;
+        height:150px;
+        margin-left: 0%;
+    }
+    
+    .instan{
+        background-color: whitesmoke;
+        border-radius: 25px;
+        margin-bottom: 40px;
+    }
+
+}
